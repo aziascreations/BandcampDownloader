@@ -1,12 +1,14 @@
 ![Logo](http://i.imgur.com/S6AZHOg.png) Bandcamp Downloader
 ===========================================================
 
-[![Download](http://i.imgur.com/UjPs7Sr.png)](https://github.com/Otiel/BandcampDownloader/releases/latest)
+Forked from [Otiel/BandcampDownloader](https://github.com/Otiel/BandcampDownloader)
+
+[![Download](http://i.imgur.com/bB4SxT3.png)](https://github.com/aziascreations/BandcampDownloader/releases/latest)
 
 Description
 -----------
 
-_BandcampDownloader_ is a Windows application written in C# using .NET Framework 4.5 that helps downloading albums from [bandcamp.com](http://bandcamp.com). _BandcampDownloader_ retrieves the 128 kbps MP3 files that are streamed on the website.
+_BandcampDownloader_ is a Windows application written in C# using .NET Framework 4.5 that helps downloading albums from [bandcamp.com](http://bandcamp.com).<br>_BandcampDownloader_ retrieves the 128 kbps MP3 files that are streamed on the website.
 
 Features
 --------
@@ -24,41 +26,44 @@ Features
 Usage
 -----
 
-1. [Download](https://github.com/Otiel/BandcampDownloader/releases/latest) the latest version from the releases page as a zip file.
+1. [Download](https://github.com/aziascreations/BandcampDownloader/releases/latest) the latest version from the releases page as a zip file.
 2. Make sure the following files are located in the same folder:
     * `BandcampDownloader.exe`,
     * `ImageResizer.dll`,
     * `Newtonsoft.Json.dll`,
-    * `taglib-sharp.dll`.
+    * `taglib-sharp.dll`,
+    * `MaterialDesignThemes.Wpf.dll`,
+    * `MaterialDesignColors.dll`.
 3. Run `BandcampDownloader.exe`.
 
 Screenshot
 ----------
 
-![Screenshot](http://i.imgur.com/J41KgJI.png)
+![Screenshot](http://i.imgur.com/z90HJ7o.png)
 
 Release notes
 -------------
 
-See the [releases page](https://github.com/Otiel/BandcampDownloader/releases).
+See the [releases page](https://github.com/aziascreations/BandcampDownloader/releases).
 
 Dependencies
 ------------
 
-_BandcampDownloader_ uses:
 * [Json.NET](http://james.newtonking.com/json) to deserialize JSON data from the Bandcamp pages.
 * [TagLibSharp](https://github.com/mono/taglib-sharp) to tag tracks.
 * [ImageResizer](http://imageresizing.net/) to convert/resize covert arts.
+* [Material Design In XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) for the material theme.
+* [Flatastic Icons](http://www.customicondesign.com/free-icons/flatastic-icon-set/) for the application icon.
 
 Bugs/Ideas
 ----------
 
-If you have a bug to report, or simply an idea for an improvement or a new feature, please add them in the [issue tracker](https://github.com/Otiel/BandcampDownloader/issues).
+If you have a bug to report, or simply an idea for an improvement or a new feature, please add them in the [issue tracker](https://github.com/aziascreations/BandcampDownloader/issues).
 
 Help
 ----
 
-Check the [wiki](https://github.com/Otiel/BandcampDownloader/wiki) for first help or open an [issue](https://github.com/Otiel/BandcampDownloader/issues) if you cannot find what you are looking for.
+Check the [wiki](https://github.com/Otiel/BandcampDownloader/wiki) for first help or open an [issue](https://github.com/aziascreations/BandcampDownloader/issues) if you cannot find what you are looking for.
 
 License
 -------

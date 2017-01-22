@@ -16,7 +16,7 @@ namespace BandcampDownloader {
         /// <summary>
         /// The help text displayed in the URL list textbox.
         /// </summary>
-        public static readonly String UrlsHint = "Paste URLs of albums to download here. You can specify multiple URLs by writing one URL per line.\n\nA Bandcamp URL looks like: http://[artist].bandcamp.com/album/[album] or http://[artist].bandcamp.com/track/[track]\nPaste artist pages: http://[artist].bandcamp.com and check \"☑ Download artist discography\" to download all their albums.";
+        public static readonly String UrlsHint = "Paste URLs of albums to download here. You can specify multiple URLs by writing one URL per line.\n\nA Bandcamp URL looks like: http://[artist].bandcamp.com/album/[album] or http://[artist].bandcamp.com/track/[track]\nPaste artist pages: http://[artist].bandcamp.com.\n\nYou can also check \"☑ Download artist discography\" to download all their albums.";
         /// <summary>
         /// The absolute path to the settings file.
         /// </summary>
