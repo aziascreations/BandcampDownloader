@@ -1,7 +1,7 @@
 ![Logo](http://i.imgur.com/S6AZHOg.png) Bandcamp Downloader
 ===========================================================
 
-[![Download](http://i.imgur.com/UjPs7Sr.png)](https://github.com/Otiel/BandcampDownloader/releases/latest)
+[![Download](http://i.imgur.com/bB4SxT3.png)](https://github.com/aziascreations/BandcampDownloader/releases/latest)
 
 Description
 -----------
@@ -29,18 +29,20 @@ Usage
     * `BandcampDownloader.exe`,
     * `ImageResizer.dll`,
     * `Newtonsoft.Json.dll`,
-    * `taglib-sharp.dll`.
+    * `taglib-sharp.dll`,
+    * `MaterialDesignThemes.Wpf.dll`,
+    * `MaterialDesignColors.dll`.
 3. Run `BandcampDownloader.exe`.
 
 Screenshot
 ----------
 
-![Screenshot](http://i.imgur.com/J41KgJI.png)
+![Screenshot](http://i.imgur.com/z90HJ7o.png)
 
 Release notes
 -------------
 
-See the [releases page](https://github.com/Otiel/BandcampDownloader/releases).
+See the [releases page](https://github.com/aziascreations/BandcampDownloader/releases).
 
 Dependencies
 ------------
@@ -49,6 +51,8 @@ _BandcampDownloader_ uses:
 * [Json.NET](http://james.newtonking.com/json) to deserialize JSON data from the Bandcamp pages.
 * [TagLibSharp](https://github.com/mono/taglib-sharp) to tag tracks.
 * [ImageResizer](http://imageresizing.net/) to convert/resize covert arts.
+* [Material Design In XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) for the material theme.
+* [Flatastic Icons](http://www.customicondesign.com/free-icons/flatastic-icon-set/) for the application icon.
 
 Bugs/Ideas
 ----------
